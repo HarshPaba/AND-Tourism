@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    display: flex;
+    height: fit-content;
+    border: 1px solid silver;
+    align-items: center;
+
+}
+.it{
+    /* border: 1px solid green; */
+    align-self: center;
+    margin: .8vw;
+}
+.it img{
+    height: 9vh;
+}
+#it1{
+    margin-left: 7vw;
+}
+#it2{
+    margin-left: 65vw;
+}
+#it2 a{
+   
+    text-decoration: none;
+    color: black;
+}
+.navbar ul{
+    text-align: center;
+}
+.navbar ul li{
+   display: inline;
+   color: black;
+   font-weight: 500;
+   padding: 1vw;
+   margin: 1vw;
+}
+.navbar ul li:hover{
+   background-color: ghostwhite;
+   border: 1px solid ghostwhite;
+   border-radius: 4px;
+} 
+
+main{
+    min-height: 80vh;
+}
+footer{
+    background-color: #f2f2f2;
+    height: fit-content;
+    padding: 2vw;
+}
+.foo1 ul{
+    line-height: 5vh;
+}
+.foo1 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+ p{
+    font-weight: bold;
+    display: inline;
+}
+.foo1{
+    margin-left: 5vw;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: fit-content;
+    width: fit-content;
+    padding: 3vh;
+
+}
+.foo1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.foo2{
+    position: absolute;
+    left: 35vw;
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: fit-content;
+    width: fit-content;
+    padding: 3vh;
+}
+.foo2 img{
+    height: 7vh;
+    margin-left: 1vw;
+}
+.foo3 ul{
+    text-align: center;
+}
+.foo3 ul li{
+    display: inline;
+}
+.foo4{
+    display: inline-block;
+    position: absolute;
+    border: 2px solid #ffe094;
+    border-radius: 4px;
+    background-color: #ffe094;
+    height: 40vh;
+    width: 30vw;
+    top: 94vh;
+    right: 5vw;
+    padding: .9vw;
+}
+.foo4 pre{
+    margin-top: 4vh;
+    text-align: center;
+    font-weight: 800;
+    color: darkgray;
+    font-size: 20px;
+}
+.ip{
+    margin-left: 5.5vw;
+    margin-top: 4vh;
+}
+input{
+    background-color: lightgoldenrodyellow;
+    border: 1.5px solid;
+    border-color: darkgray;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+}
+button{
+    position: relative;
+    top: 5vh;
+    right: -8vw;
+    font-size: 20px;
+    padding: 3px;
+    background-color: #ff5a5e;
+    outline: none;
+    /* border: none; */
+    border: 2px solid #ff5a5e;
+    border-radius: 4px;
+    color: white;
+    width: 13vw;
+    box-shadow: 5px 5px darkgray;
+}
+button:hover{
+    box-shadow: none;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
